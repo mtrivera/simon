@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<meta charset='UTF-8' />
+<meta name="viewport" content="width=device-width, minimum-scale = 1.0, initial-scale = 1.0, maximum-scale = 5.0, user-scalable=yes">
+<title>Simon Game FCC Project by Miguel T Rivera</title>
+<head>
+<link rel='stylesheet' href='styles/styles.css' />
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Simon Game</h1>
+      <p>Created by Miguel T Rivera</p>
+    </header>
+    <main>
+      <div id="colors">
+        <button type="button" id="green"></button>
+        <button type="button" id="red"></button>
+        <button type="button" id="yellow"></button>
+        <button type="button" id="blue"></button>
+      </div>
+      <div class="feedback">
+        Count<span class="feedback__score-number"></span>
+        Strict Status<span class="feedback__status-text"></span>
+      </div>
+      <div class="menu">
+        <button type="button" class="menu__start-button">start</button>
+        <button type="button" class="menu__reset-button">reset</button>
+        <button type="button" class="menu__strict-button">strict</button>
+      </div>
+    </main>
+  </div>
+<script src='src/app.js'></script>
+</body>
+</html>
